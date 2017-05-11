@@ -5,10 +5,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Butterfly/butterfly.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Butterfly/1.png"},
-			{ "skillname": "", img: "./images/Butterfly/2.png"},
-			{ "skillname": "", img: "./images/Butterfly/3.png"},
-			{ "skillname": "", img: "./images/Butterfly/4.png"}
+			{ "skillname": "", img: require("./images/Butterfly/1.png")},
+			{ "skillname": "", img: require("./images/Butterfly/2.png")},
+			{ "skillname": "", img: require("./images/Butterfly/3.png")},
+			{ "skillname": "", img: require("./images/Butterfly/4.png")}
 		]
 	},
 	{
@@ -17,10 +17,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Changnar/changnar.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Changnar/1.png"},
-			{ "skillname": "", img: "./images/Changnar/2.png"},
-			{ "skillname": "", img: "./images/Changnar/3.png"},
-			{ "skillname": "", img: "./images/Changnar/4.png"}
+			{ "skillname": "", img: require("./images/Changnar/1.png")},
+			{ "skillname": "", img: require("./images/Changnar/2.png")},
+			{ "skillname": "", img: require("./images/Changnar/3.png")},
+			{ "skillname": "", img: require("./images/Changnar/4.png")}
 		]
 	},
 	{
@@ -29,10 +29,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Lubu/lubu.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Lubu/1.png"},
-			{ "skillname": "", img: "./images/Lubu/2.png"},
-			{ "skillname": "", img: "./images/Lubu/3.png"},
-			{ "skillname": "", img: "./images/Lubu/4.png"}
+			{ "skillname": "", img: require("./images/Lubu/1.png")},
+			{ "skillname": "", img: require("./images/Lubu/2.png")},
+			{ "skillname": "", img: require("./images/Lubu/3.png")},
+			{ "skillname": "", img: require("./images/Lubu/4.png")}
 		]
 	},
 	{
@@ -41,10 +41,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Mganga/mganga.png"),
 		"skill": [
-			{ "skillname": '', img: "./images/Mganga/1.png"},
-			{ "skillname": '', img: "./images/Mganga/2.png"},
-			{ "skillname": '', img: "./images/Mganga/3.png"},
-			{ "skillname": '', img: "./images/Mganga/4.png"}
+			{ "skillname": '', img: require("./images/Mganga/1.png")},
+			{ "skillname": '', img: require("./images/Mganga/2.png")},
+			{ "skillname": '', img: require("./images/Mganga/3.png")},
+			{ "skillname": '', img: require("./images/Mganga/4.png")}
 		]
 	},
 	{
@@ -53,10 +53,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Mina/mina.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Mina/1.png"},
-			{ "skillname": "", img: "./images/Mina/2.png"},
-			{ "skillname": "", img: "./images/Mina/3.png"},
-			{ "skillname": "", img: "./images/Mina/4.png"}
+			{ "skillname": "", img: require("./images/Mina/1.png")},
+			{ "skillname": "", img: require("./images/Mina/2.png")},
+			{ "skillname": "", img: require("./images/Mina/3.png")},
+			{ "skillname": "", img: require("./images/Mina/4.png")}
 		]
 	},
 	{
@@ -65,10 +65,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Omega/omega.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Omega/1.png"},
-			{ "skillname": "", img: "./images/Omega/2.png"},
-			{ "skillname": "", img: "./images/Omega/3.png"},
-			{ "skillname": "", img: "./images/Omega/4.png"}
+			{ "skillname": "", img: require("./images/Omega/1.png")},
+			{ "skillname": "", img: require("./images/Omega/2.png")},
+			{ "skillname": "", img: require("./images/Omega/3.png")},
+			{ "skillname": "", img: require("./images/Omega/4.png")}
 		]
 	},
 	{
@@ -77,10 +77,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Thane/thane.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Thane/1.png"},
-			{ "skillname": "", img: "./images/Thane/2.png"},
-			{ "skillname": "", img: "./images/Thane/3.png"},
-			{ "skillname": "", img: "./images/Thane/4.png"}
+			{ "skillname": "", img: require("./images/Thane/1.png")},
+			{ "skillname": "", img: require("./images/Thane/2.png")},
+			{ "skillname": "", img: require("./images/Thane/3.png")},
+			{ "skillname": "", img: require("./images/Thane/4.png")}
 		]
 	},
 	{
@@ -89,10 +89,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/VanHelsing/vanhelsing.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/VanHelsing/1.png"},
-			{ "skillname": "", img: "./images/VanHelsing/2.png"},
-			{ "skillname": "", img: "./images/VanHelsing/3.png"},
-			{ "skillname": "", img: "./images/VanHelsing/4.png"}
+			{ "skillname": "", img: require("./images/VanHelsing/1.png")},
+			{ "skillname": "", img: require("./images/VanHelsing/2.png")},
+			{ "skillname": "", img: require("./images/VanHelsing/3.png")},
+			{ "skillname": "", img: require("./images/VanHelsing/4.png")}
 		]
 	},
 	{
@@ -101,10 +101,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Veera/veera.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Veera/1.png"},
-			{ "skillname": "", img: "./images/Veera/2.png"},
-			{ "skillname": "", img: "./images/Veera/3.png"},
-			{ "skillname": "", img: "./images/Veera/4.png"}
+			{ "skillname": "", img: require("./images/Veera/1.png")},
+			{ "skillname": "", img: require("./images/Veera/2.png")},
+			{ "skillname": "", img: require("./images/Veera/3.png")},
+			{ "skillname": "", img: require("./images/Veera/4.png")}
 		]
 	},
 	{
@@ -113,10 +113,10 @@ var heros = [
 		"nickname": "",
 		"avatar": require("./images/Zephys/zephys.png"),
 		"skill": [
-			{ "skillname": "", img: "./images/Zephys/1.png"},
-			{ "skillname": "", img: "./images/Zephys/2.png"},
-			{ "skillname": "", img: "./images/Zephys/3.png"},
-			{ "skillname": "", img: "./images/Zephys/4.png"}
+			{ "skillname": "", img: require("./images/Zephys/1.png")},
+			{ "skillname": "", img: require("./images/Zephys/2.png")},
+			{ "skillname": "", img: require("./images/Zephys/3.png")},
+			{ "skillname": "", img: require("./images/Zephys/4.png")}
 		]
 	},
 ]
