@@ -14,3 +14,7 @@
     margin-right: 2px;
     cursor: pointer;
 }
+
+.hero-name {
+    margin-bottom: 2px !important;
+}
