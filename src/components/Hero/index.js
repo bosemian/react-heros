@@ -1,36 +1,25 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import heros from '../../../heros'
 
-import ModalHero from './ModalHero'
-
 class Hero extends Component {
-
-    state = {
-        isOpen: false
-    }
-
-    open = () => {
-        this.setState({ isOpen: true })
-    }
-
-    close = () => {
-        this.setState({ isOpen: false })
-    }
 
     renderHero = () => {
         return heros.map(hero => {
             return (
                 <div key={hero.id} className="column is-one-quarter">
-                    <div className="card hero" onClick={this.open}>
-                        <div className="card-image">
-                            <figure className="image is-4by3">
-                                <img src={hero.avatar} alt="avartar" title={hero.name} />
-                            </figure>
-                        </div>
+                    <div className="card hero">
+                        <Link to={`/hero/${hero.id}`}>
+                            <div className="card-image">
+                                <figure className="image is-4by3 button is-dark">
+                                    <img src={hero.avatar} alt={hero.name} title={hero.name} />
+                                </figure>
+                            </div>
+                        </Link>
                         <div className="card-content"> 
                                 <div className="media-left">
-                                    <p className="title is-4 hero-name"><a className="is-primary">{hero.name}</a></p>
+                                    <p className="title is-4 hero-name"><Link to={`/hero/${hero.id}`} className="is-primary">{hero.name}</Link></p>
                                     <p className="is-6">Skills</p>
                                     { this.renderSkill(hero.skill)}
 
@@ -49,7 +38,7 @@ class Hero extends Component {
         return skills.map((skill, i) => {
             return (
                 <figure key={i +1} className="skill">
-                    <img className="img-circle" src={skill.img} title="skill" />
+                    <img className="img-circle" src={skill.img} alt="skillname" title="skill" />
                 </figure>
             )   
         })
@@ -62,11 +51,6 @@ class Hero extends Component {
                 <div className="columns is-multiline">
                     { this.renderHero() }
                 </div>
-                { this.state.isOpen ?
-                    <ModalHero
-                        status={this.state.isOpen}
-                        close={this.close} />
-                    : null}
             </div>
         );
     }

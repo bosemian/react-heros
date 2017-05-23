@@ -5,10 +5,6 @@ import heros from '../../../heros'
 
 class HeroDetail extends Component {
 
-  state = {
-    hero: null
-  }
-
   renderHero = () => {
     const id = this.props.match.params.id
     const hero = _(heros).find((hero => +id === hero.id))
@@ -18,7 +14,7 @@ class HeroDetail extends Component {
           <article className="tile is-child box is-paddingless button is-dark">
             <div className="content">
               <figure className="image is-square">
-                <img src={hero.avatar} />
+                <img src={hero.avatar} alt={hero.name} />
               </figure>
             </div>
           </article>
@@ -36,7 +32,6 @@ class HeroDetail extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div>
         <div className="has-text-centered">
