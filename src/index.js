@@ -6,6 +6,7 @@ import { App } from './components';
 import HeroDetail from './components/Hero/HeroDetail'
 import Header from './components/App/Header'
 
+import '../node_modules/bulma/css/bulma.css'
 import '../node_modules/animate.css/animate.min.css'
 import './style/style.css'
 
