@@ -9,7 +9,7 @@ class Hero extends Component {
         return heros.map(hero => {
             return (
                 <div key={hero.id} className="column is-one-quarter">
-                    <div className="card hero">
+                    <div className="card animated fadeInLeft">
                         <Link to={`/hero/${hero.id}`}>
                             <div className="card-image">
                                 <figure className="image is-4by3 button is-dark">
