@@ -38,7 +38,7 @@ class Hero extends Component {
         return skills.map((skill, i) => {
             return (
                 <figure key={i +1} className="skill">
-                    <img className="img-circle" src={skill.img} alt="skillname" title="skill" />
+                    <img className="img-circle" src={skill.img} alt={skill.skillname} title={skill.skillname} />
                 </figure>
             )   
         })

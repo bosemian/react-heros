@@ -21,12 +21,41 @@ class HeroDetail extends Component {
         </div>
         <div className="tile is-parent is-8">
           <article className="tile is-child box">
-            <p className="title">My name is: <a className="is-info is-4">{hero.name}</a></p>
+            <p className="title">My name is: <strong>{hero.name}</strong></p>
             <div className="content">
               <p>{hero.history}</p>
             </div>
+            <div className="content">
+              <h4 className="title is-4">Skills</h4>
+            </div>
+            <div className="content">
+              { this.renderSkill() }
+            </div>
           </article>
         </div>
+      </div>
+    )
+  }
+
+  renderSkill = () => {
+    return (
+      <div className="box">
+        <article className="media">
+          <div className="media-left">
+            <figure>
+              <img className="skill-img" src="http://bulma.io/images/placeholders/64x64.png" alt="Image" />
+            </figure>
+          </div>
+          <div className="media-content">
+            <div className="content">
+              <p>
+                <strong>Skill Name</strong>
+                <br />
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+              </p>
+            </div>
+          </div>
+        </article>
       </div>
     )
   }

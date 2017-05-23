@@ -22,3 +22,9 @@
 .hero-name {
     margin-bottom: 2px !important;
 }
+
+.skill-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 30px;
+}
