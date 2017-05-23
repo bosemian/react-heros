@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash'
+import { Link } from 'react-router-dom'
 
 import heros from '../../../heros'
 
@@ -29,7 +30,7 @@ class HeroDetail extends Component {
               <h4 className="title is-4">Skills</h4>
             </div>
             <div className="content">
-              { this.renderSkill() }
+              { this.renderSkill(hero.skill) }
             </div>
           </article>
         </div>
@@ -37,34 +38,40 @@ class HeroDetail extends Component {
     )
   }
 
-  renderSkill = () => {
-    return (
-      <div className="box">
-        <article className="media">
-          <div className="media-left">
-            <figure>
-              <img className="skill-img" src="http://bulma.io/images/placeholders/64x64.png" alt="Image" />
-            </figure>
-          </div>
-          <div className="media-content">
-            <div className="content">
-              <p>
-                <strong>Skill Name</strong>
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-              </p>
+  renderSkill = (skills) => {
+    return skills.map((skill, i) => {
+      return (
+        <div key={i} className="box">
+          <article className="media">
+            <div className="media-left">
+              <figure>
+                <img className="skill-img" src={skill.img} title={skill.skillname} alt={skill.skillname} />
+              </figure>
             </div>
-          </div>
-        </article>
-      </div>
-    )
+            <div className="media-content">
+              <div className="content">
+                <p>
+                  <strong>{skill.skillname}</strong>
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      )
+    })
   }
 
   render() {
     return (
       <div>
-        <div className="has-text-centered">
-          <h2 className="title is-2">Hero Detail</h2>
+        <div>
+          <br/>
+          <Link to="/">
+            <span className="is-pulled-left tag is-info is-medium">Back</span>
+          </Link>
+          <h2 className="has-text-centered title is-2">Hero Detail</h2>
         </div>
         <br />
         { this.renderHero() }

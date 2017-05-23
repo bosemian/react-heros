@@ -1,7 +1,3 @@
-.hero {
-    cursor: pointer
-}
-
 .img-circle {
     border-radius: 30px;
 }
@@ -27,4 +23,5 @@
     width: 64px;
     height: 64px;
     border-radius: 30px;
+    cursor: pointer;
 }
