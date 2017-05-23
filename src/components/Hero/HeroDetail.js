@@ -15,18 +15,19 @@ class HeroDetail extends Component {
     return (
       <div className="tile is-ancestor">
         <div className="tile is-parent">
-          <article className="tile is-child box">
+          <article className="tile is-child box is-paddingless button is-dark">
             <div className="content">
-              
+              <figure className="image is-square">
+                <img src={hero.avatar} />
+              </figure>
             </div>
           </article>
         </div>
         <div className="tile is-parent is-8">
           <article className="tile is-child box">
-            <p className="title">Main column</p>
-            <p className="subtitle">With some content</p>
+            <p className="title">My name is: <a className="is-info is-4">{hero.name}</a></p>
             <div className="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>{hero.history}</p>
             </div>
           </article>
         </div>
