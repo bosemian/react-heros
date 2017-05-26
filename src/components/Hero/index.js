@@ -48,6 +48,7 @@ class Hero extends Component {
     render() {
         return (
             <div>
+                <br/>
                 <div className="columns is-multiline">
                     { this.renderHero() }
                 </div>

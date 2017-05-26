@@ -6,7 +6,7 @@ class Header extends Component {
             <div>
                 <nav className="nav">
                     <div className="nav-center">
-                        <h2 className="title is-2">Heros</h2>
+                        <h1 className="title is-1">Heros</h1>
                     </div>
                 </nav>
             </div>

@@ -13,7 +13,7 @@ import './style/style.css'
 ReactDOM.render(
   <Router>
     <div className="container">
-      <Route exact path="/" component={Header}></Route>
+      <Header />
       <Route exact path="/" component={App}></Route>
       <Route path="/hero/:id" component={HeroDetail}></Route>
     </div>

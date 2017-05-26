@@ -69,7 +69,7 @@ class HeroDetail extends Component {
         <div>
           <br/>
           <Link to="/">
-            <span className="is-pulled-left tag is-info is-large">Back</span>
+            <span className="is-pulled-left tag is-info is-large btn-back">Back</span>
           </Link>
           <h2 className="has-text-centered title is-2">Hero Detail</h2>
         </div>
