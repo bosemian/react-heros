@@ -23,6 +23,8 @@ class HeroDetail extends Component {
         <div className="tile is-parent is-8 animated fadeInRight">
           <article className="tile is-child box">
             <p className="title">My name is: <strong>{hero.name}</strong></p>
+            <p className="sub-title is-4">"{hero.quote}"</p>
+            <br/>
             <div className="content">
               <p>{hero.history}</p>
             </div>

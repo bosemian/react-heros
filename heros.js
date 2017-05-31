@@ -129,6 +129,32 @@ var heros = [
 			{ "skillname": "Death from Above", img: require("./images/Zephys/4.png")}
 		]
 	},
+	{
+		"id": 11,
+		"name": "Zanis",
+		"quote": "หอกของเขาเหวี่ยงไปมาราวกับมังกรพิโรธ ศัตรูที่ได้เห็นจะรู้สึกถึงความกลัวที่แท้จริง...",
+		"history": "ทหารม้ายอดฝีมือผู้เบื่อหน่ายสงคราม Zanis คือตำนานแห่งหุบเขา Chang-pan ด้วยวีรกรรมที่เขาก่อเอาไว้ ช่วยชีวิตองค์รัชทายาท เขาได้รับความเคารพจากทั้งลิโป้ ขุนศึกอันดับหนึ่ง และจูกัดเหลียง(ขงเบ้ง) กุนซืออันดับหนึ่ง ศัตรูของเขากล่าวไว้ว่า",
+		"avatar": require("./images/Zanis/zanis.jpg"),
+		"skill": [
+			{ "skillname": "Dragoon", img: require("./images/Zanis/1.png")},
+			{ "skillname": "Blood Wyrm", img: require("./images/Zanis/2.png")},
+			{ "skillname": "Roar", img: require("./images/Zanis/3.png")},
+			{ "skillname": "Dragon's Wrath", img: require("./images/Zanis/4.png")}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Grakk",
+		"quote": "หิวกระหายตลอดเวลา ช่างทรมานเหลือเกิน !",
+		"history": "เป็นผู้กินหรือผู้ถูกกิน กฏแห่งธรรมชาติไม่อาจฝ่าฝืนได้ Grakk เคยมีทุกสิ่งทุกอย่าง ไม่ว่าจะเป็นรูปร่างหน้าตาและฐานะ เขาเป็นคนที่ผู้หญิงใฝ่ฝันถึงก่อนเวลาเข้านอน แต่น้อยคนนักจะรู้ว่าภายใต้ความสมบูรณ์แบบนั้นแฝงไปด้วยความมืดมน สิ่งที่เขากระทำเลวเกินกว่าจะอธิบายออกมาเป็นคำพูดได้ ผู้คุมกฏแห่งโลกเบื้องล่างจึงสาปเขาไม่ให้ไปเกิด และต้องเฝ้าคอยดูดกลืนดวงวิญญาณที่มาใหม่อยู่เรื่อย ๆ ",
+		"avatar": require("./images/Grakk/grakk.jpg"),
+		"skill": [
+			{ "skillname": "Blood Ritual", img: require("./images/Grakk/1.png")},
+			{ "skillname": "Void Necromancy", img: require("./images/Grakk/2.png")},
+			{ "skillname": "Annihilation Hook", img: require("./images/Grakk/3.png")},
+			{ "skillname": "Reincarnation", img: require("./images/Grakk/4.png")}
+		]
+	}
 ]
 
 module.exports =  heros;
